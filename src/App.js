@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route} from 'react-router-dom'
 import Acomponent from './components/Acomponent';
-import Bcomponent from './components/Bcomponent';
+import FormLogin from './components/FormLogin';
 import NavBar from './components/NavBar';
 import './App.css';
 
@@ -13,8 +13,8 @@ function App() {
       <Route path="/componentA">
         <Acomponent/>
       </Route>
-      <Route path="/componentB">
-        <Bcomponent/>
+      <Route path="/Login">
+        <FormLogin/>
       </Route>
     </div>
   );

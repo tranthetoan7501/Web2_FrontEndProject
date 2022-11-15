@@ -13,7 +13,7 @@ function NavBar() {
         <Nav.Link href="/componentA">ComponentA</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="/componentB">ComponentB</Nav.Link>
+        <Nav.Link href="/componentB">Login</Nav.Link>
       </Nav.Item>
     </Nav>
   );
